@@ -1,0 +1,226 @@
+{
+    "lounge": "Nová sportovní hala česká lípa",
+    "division": "Livesport Pralesliga - 3. kolo",
+    "referees": [
+        {
+            "name": "",
+            "info": "Licence E"
+        },
+        {
+            "name": "",
+            "info": "Licence E"
+        }
+    ],
+    "home": {
+        "name": "FBC Junky Česká Lípa",
+        "fg": "#FFFFFF",
+        "bg": "#16174D",
+        "logo": "data:image/webp;base64,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",
+        "players": {
+            "brankáři": [
+                {
+                    "name": "",
+                    "post": "Nastupující brankář",
+                    "number": "",
+                    "image": "/junky/xxx.jpg"                    
+                },
+                {
+                    "name": "",
+                    "post": "Náhradní brankář",
+                    "number": "",
+                    "image": "/junky/xxx.jpg"
+                }
+            ],
+            "1. formace": [
+                {
+                    "name": "",
+                    "post": "útočník",
+                    "number": "",
+                    "image": "/junky/xxx.jpg"
+                },
+                {
+                    "name": "",
+                    "post": "útočník",
+                    "number": "",
+                    "image": "/junky/xxx.jpg",
+                    "captain": true
+                },
+                {
+                    "name": "",
+                    "post": "útočník",
+                    "number": "",
+                    "image": "/junky/xxx.jpg"
+                },
+                {
+                    "name": "",
+                    "post": "útočník",
+                    "number": "",
+                    "image": "/junky/xxx.jpg"
+                },
+                {
+                    "name": "",
+                    "post": "útočník",
+                    "number": "",
+                    "image": "/junky/xxx.jpg"
+                }
+            ],
+            "2. formace": [
+                {
+                    "name": "",
+                    "post": "útočník",
+                    "number": "",
+                    "image": "/junky/xxx.jpg"
+                },
+                {
+                    "name": "",
+                    "post": "útočník",
+                    "number": "",
+                    "image": "/junky/xxx.jpg"
+                },
+                {
+                    "name": "",
+                    "post": "útočník",
+                    "number": "",
+                    "image": "/junky/xxx.jpg"
+                },
+                {
+                    "name": "",
+                    "post": "obránce",
+                    "number": "",
+                    "image": "/junky/xxx.jpg"
+                },
+                {
+                    "name": "",
+                    "post": "obránce",
+                    "number": "",
+                    "image": "/junky/xxx.jpg"
+                }
+            ],
+            "náhradníci": [
+                {
+                    "name": "",
+                    "post": "útočník",
+                    "number": "",
+                    "image": "/junky/xxx.jpg"
+                }
+            ],
+            "realizační": [
+                {
+                    "name": "",
+                    "post": "trenér",
+                    "number": "",
+                    "image": "/junky/bartosova.jpg"
+                },
+                {
+                    "name": "",
+                    "post": "Asistent trenéra",
+                    "number": "",
+                    "image": "/junky/sevcikova.jpg"
+                }
+            ]
+        }
+    },
+    "away": {
+        "name": "FBC Dáme Piko Česká Lípa",
+        "fg": "#FFFFFF",
+        "bg": "#000000",
+        "logo": "data:image/webp;base64,UklGRvoXAABXRUJQVlA4WAoAAAAQAAAAgQAAmAAAQUxQSFEEAAABoIVsm9ra+hmGUEoIi1JK2LJku7v7cXd3d3d3d/ez3d3dXbvd3W1JKSGUEoZcdGWSzPz/kbuImAD4f9Hq06tHjx5dOnVo06pJA9vOpKykQc39vqRwXTefqz5zbNva5XPH//LB60/e2qdLpWVwhtwXMlEXaw+tnPjXBw9e267cRGp2fJJeoXrP0j8+unNQucVRSRxQSLJQu23mV08OqmRIZBwdAkX1+qEvXtvE0q6fr33hzNrfnuyT4ho9qF/9zraxL15oa/INFqXC2TX48S5l6i3EpF6vevEHF6eZSvwAOvUWsj/cWM5UaeDiVOpu+e7aNFOhh8CrNLf83T6J2O710Rfnxt/diMXyBX6lzvKX2xnRjafB932x64teRjRsGxm+73sHvuiViIBXU+L7vrfr3Wah0h4xvu8XF95ZJtfJJ/nED6bMhTT5fgeZR6m6UOZNqm6U+Y6q52UmUvWRzGKqvpNZS9VYCX6IqoUSyVNUrZcoq6Vql0QmT9UeCdulqprTl0sGNRNU5cuC2vlkpYM6kOVkgjqR5dr/LXQgy8kEtaIrHVRepCqfCrJdqnImfbVGUDpH1QEWZJ2jag8EJ45RlZVgWaqWSsBKqibLTKfqB5m/qPpE5l2qnpd5kqrrZa6mqp9MF6K8JjIZj6acJcOraTpkyLAsTQtBeixNQ+U+oellubtpulGui0eRaCNnOxTlk3JsB0W7IORoioaGeZui58NcTJC4MIzt0OPYYYxt9GxhYWAwPX9A6EfpuTtcK0GNaBWOn6DmmBEORlMzGiK8m5r7o2ji0lJsEgXfQssWFgV8QssXEGkfUsSgaBLHKDliRgN/UDIcIr5cEHJ9VOYpOnJmVDCYjtEQ+SBBhXdpdMk9VBwxo4NPqPgBYmxRoKHYKQ5YSsNaHsutgoT7IVbrEAXnUvHAJxR8BzFX5vFz2sTFRuI3mcUFPQrYeYMg/rnYLWcKXOzhJq4HBfly3LKGCnClwEzcCkry1ZhlDTXg4iJe3pWgKJuO11KuCnQrYFUcBMqywViNZOpAeQ4npxWo/KZA6QNQ2tqF0b6UWnClh4+4GRRnI/GZzFWDyjPY5JqA+vcLXMSToKExFZe5CR2g8hwm1S1Az3s9PIoPg6Z8OB5juS6Q2YXFPhv07efg4AwAnV/0MBAvg9Z8JAYjDb0gtUW/bBp0b3dCtzNtQP8rHb3cSwFB9qjQqfA44PiN0Ed8xpBIDNZGDDYAS3OhLuNNwDO1Uo+VJmDaYK0Oq9OAa6OseusbALblG1VbbwO+5evVWt0AMG6wVqXlKcA5s1AZMdYCrK2JQpG/TMA78YNQofARB8z562587sMMkL89H9eJiwH/LvviWd0CKGw0OwZveApoTHziRZV/ngOV7NoT0ezpB5Q2WSzCFcfaQGvidSfMuQeB3h5ZKTG3FVBsfeYGVT9tANG9VosSb3YzoNt8Oef7Jx40gPQ2M0faQD1n8G8QAFZQOCCCEwAAUEcAnQEqggCZAD5tLpJGJCKhoSt3jIiADYlmCHABjltCpf+283K5/5f8RclfWHmL9Aef70LeYJ+rXnceqjzCft76wv/L/YD3h/2/1CP8J1HP7d+wZ5eHsq/2//semB6gH//2Ev+efjt4A/378l/QH8W+UfvX5Zf232r8yfWbmb+4X5f+4fuT/dv3K+Ru835F6gX4t/L/8H+ZH5mccyAH9J/qv+r/v/jg6jvfP2AP1b/2vr53ilAP+hf3H/qf3j8pPpl/m//f/of9V6U/0L/Lf+3/VfAb/Nv7F/0PXA9dP7f///3Rv18//6C8d/gU0ptbIqn31xIp3kbQ+wt4sCZKJuU+j8EnSi/x07PDeX1tAM0rNcEC0g4YL7HqWerSRvac4P5l9slpJjxjmS2YOW9nL2P7CmXMz4vaubEuTtOdjr11Wj4/Vdh3GBvZnq37gAC14XDFnL/s11xwDcMNKDvsY/Ts+WXtkwWHpclbIT2xgQ46T+Bfi7zE7F5H7QYkw6JiNzY3M8mfof3awFEPcm6Dl77zWN0Tbd60tK7ww8WBdH4qhDXO4xC37NqPjNr9H1UY36+99x6voK4E8ryDibFCnejNnuNApnrkgtVl1CyR9872C6YLIClOk9ku6JE8wS2CEKPKJ2rh7P+FBtT/DvOl92f5/iENZi+cfKlslWmCGtyo8543osXYHlbaBtFyWFq2xUgaCyT7/VheIOigoWQBJdHh0uvxoj3X4YVs5IcgeC14crgQ8hmDBnERuQjXGnGR0cDgAP2gVdfRoBwG9NB00+ncfLkd2/mIAeLKhifGktPBRykZiBseyEmDAoIhKtVbboP46ckaqda9YkM1QgDEKvKcsu7lkDyfuEtaLLZwE8jgfef4gHieXsr6uP3RntUvyDjtWGxU3tOhT5LnspSD30F9drcEJd8SItJnj1VSO8l2Xkg5tcQWgmLtDULkY7MNPBW2poZbj86RM48OKP9ZnnoU8CS0JCRsrbnU8BdfLfZheN2bbsl7KWXqoyjenWyoJBTrEqj0waPQ01nDe+ZFjaPzQ2OK/zBvCUNBO07nw2NHDL75eoI5qezS/GxNxgpuu3j3LMpTSB7cw/m5a1n9zdjrBnaTBo9HsmWpPFb5x0NzzgoRK5zAhbfvQVTUq02L0nVulDqZuZ+zsU/BP0x5qh4HZD9DT+6vW8sRwc0FTUY6uLyWFYmncIvHUIb3hePF0NLLTHGlkonl5bahfvUMKWpUcGNSgzVUg/TzkTe4MpYeh9uiSFMi++wvhkUNzWhcpS4PVi8n7gSRMFOzuM71hYTGWETVOYcIGpDRZJHhY3sfmxvQnRXWe/Wrs+EwKk8G7CriDx1vAeI/nE3O8rWoUI50Qh8kYYBugKF7KtJpiQ0jvme2dsmJPdE3/rOaNymwjzBX+C82h8zMaHp9sGvHgBjXNI+d6ZAtdKrCbFGMDeSJf9pb/ZbadVf/jET+/41ZtPzKV2uK8lb1QbfobZOH158LfKok3b8TP6JNUtzKOFsfcQg6qzqqdt9a/iWgpvg8ukY16NT5ek11+1Djf8+QDL6pwjyBdCQ8/vXoKC5GMqXJVNSJNDE7S+QRAx4JK4Q2JN54hDgZKNtTcM7+v/R358AP68jEc+FlCTxeMRMkpknDOt+uVaDLRd76DGIv2tnRIwUkdgo4B2AgNT1AY9YhE9nwMJwSP9qNH5cCuqH/8hsEL3DLbce4bwisUerN9rsd1JgnT1LIZMzxj0WJsa9eRpbD862xzXlm+1+fHK6zRnwqOEUOWoJzW5UhWIleQhF8YHXLyk//NhqaUWNRhdZkHxD1EioYM86U3xY097ZgleUTh+FhGWNyowltNY6+ZOyzUNulXBEaB7bRysBP7fQAJFVQB3FjKVxMkN+vYKLe0IJVkv8k7Luo3cbK7Mdj6ViO0zFAgbr9UWQto2xEZYr0ffJ2BvMoxsduy4BClA/g39XhXA7Sr6GYQm4z8xXMz8MJgmYAmulQEOHFVnchngjUAhqSwFKYYdiZwg5fFKT99+qvHqxZwqFBbfwP+nvh757jY8OPaCtsemHdl+lbrYle9MX+kRtx2bbD5HrYy7mCgOHHL/bzt6RhVkCT0j2KO3x3j7PxOZp3nKaLXPGtdV4OsHDV2dbvT/XyGoC9Ri5b4dj54kmpyx/g1jPyqVabkTSMq3eOCJlXHmrLa0z35IW7NiKNgNiynk816/In8iMOmROT5g2IX/CIggl/+7H95RMJ6RG/PmE5YvduKz4KoMsmXlzdv016weeaNrOlLUGuvnY+/5BX1EDekljx3o0fZyCARm8FTHGWeQ8hOTEcFEcdcps816yCr7SA+mWsT4fj4lau+ycGrJOMXGerSQoc4mO/hUhdVgcSW3JJb/s8Ahv5EiSqHodGINvkVtinceTykEkZ1XSsCedmoAGUoOpBaokjflMpvgag65JrK6ePLi3+ZBNZ6SNiC8gq5xXObPWWI1DKV+7rdTneToFp8ilnOlvkdhZfRryqG5d2XSIQ3z77FYXcQ4bMGAu8oKnkZh9q+8NSMndOJ6cx/894ndj3KmUvGNjXLRiHYcf69VLqrl3fWit+h/PBPFLkN6RqbA8aNRBPzwpJg3eVqwb+y5eGwgpXmE1lX+1eS1fFKnxkzGWgCimyx5M0J9Fwy0j3sdDXqyy3idKvbgvcSKydcBgUxxS5erkcWapUuayJyp0UkceOzle3Rvnwy158SZLDHTLMwuzlnBOK8+PfNaRFadtIG4fmgGQq5L1SFEZ82DAktpFEQ9F5DlnTV2pDAD2As2W7MfnwQY2Rxyyf+Z8R4ZsEw8cwyBQsON4DlAPfeA1s6BCrVfrXacypr8/uF110ta3lrVVEI//4XW//ovgThGWvNcEEcQCueWinQlSE4amyBbyydyQIItq9J7cBs7d2phIBXM2bbh9qOSWM+ls4j93EWgUu2huA+Q7t8qgPR4QmbDUxwsQeqe8G3d9Tirt88iX9Jab/GMs8uyuL29IQ0iCm5iRZCuOFrUXphX4tzQK/fdYwiHNHTG/hnGsfmIKM8/9myBs1PYg2xJOLHLfMc8xxcugyJIXqrxvcvR6Gj3I6DwUojarT20FGyhFNs/J7VZjmW49tiqNE6+tU1MQdW2j4q/hy1Fmi/B4/HProLIlKIl4lEF1Md8k11ou066sK8dCtgYXtnN6r0Lmva+F8p46R7jEkNNMG3OpQgvZ5Fl4JtjclBqc6jgrMvxWBqYzEgvGLoJ57ax6kcnPhkveoLbYJM/TXBM5SXPV5Rfehx688GDX1CeBDoUlKmcY3d3CVAqXzaKgHX8UPlWlfYhYBtNOd0+VWyAvPY1itoJI8xv8YHT7bmA2Qf4yHlZ2AT6D3TIXylqaQpvm3y5Cu2ahaLFZWaqF/1LMM+qqPQRkilWlZC0fU1e86MPi+sEGXqpqqJ/soKdkPcMX/r0IKmpvH/5S8CimookwMtim/PYGpMhtWe4hEMomrmAnDn0dq4yUSdG7lMjTeSc9yj7UE+r7WlkJWPsS6dwBW+wN/8G65iDcbAiOUsWZmHRMj4nDuhgw/ePvhci5TXwG1DqN5Se66fWq5gb7UfnyVym5gM73C15mLE6FadOLSpsBZw2icU5mKZtW99GJCDDT/7v1GzGkJ6inQpEO/qAa5fWbP/yIuH8RK/I+2brrndUI0fZdRllBN+Q/PDFZqxf81q1FRCZrzJ0B/E/KLvKXWQpf9w3vaoJzL7YtF1Mupq3S7yJeFPCcxFKbK+mb/Bc/YaDZUlnhI89NMOzUd8elFlCmySNjTQhnMwOIre6t4zDLURjyMH7TeP87bOfBV6xp36uORGnQerjOG1RcJzoh5zJrhSHZVe+hqIOrTOgArqG1gJj6YTCYo7mJItCdyPaGLZx4ynvn9m+WN8q+JeKT0KT7URCvahFvJN8IUrWjtT+j6wPABitejHUPzgQYK0J0iGWfUi/Ermen6QRL/Hgq8Hvc79zmV+IQ430xqO8X+s3yPQt/W2KJaBm65+9VGYUf0gKpbYEDE4fDX4XE2GuTgxK8EKWXJumWdyuDM3nXkTBE623O9e9szDwUwKIOkQTlqyQ2/sCCtPkByglen4FR6duTDEx/8SDtc+oeG5XOWm9tUlId26iMioGVOgyiKClUAxkHi8QGbVspXfC6LAY/fqtQCRWbFIh3FXcK+o657BcHD1kKQa0FDW0vN9os6tORkXbBBEyk3uPd2ykyB1NsKN8wJc5838mpxx9HCtQOVDQiN8kExDYsPoPHj68Ey4dsbWpdayQVlYLPdRPgJU8B24jQcda39YBeawtDxZZPmFpU2FvPVE//f+T5tKA40x45xzmAQ4BiUkBwiZAErGWZRUzrvL6pzbDC2OY9sZRn4Zxc4z43fsDBhWX/PlxV/yu0GmWE6MglggMDovJ2Ymvx0lPmkxVsRMo9Sr8CgzF68KAUV66CWSU5zax3P1LhXRmedB3a/DRmxEQzn706u2D0mGSX8mTGHQ01zhHS+GMJRUAtrmynj7Mj+1NQO+lk+w9Mak9sDYT13ODG7YtJI+jxT667Reht/OMXsH2vQu/jOkng+WetMPS91PdwfQzt6QsNrzb5zjKv+OFELu8CmwDe/1FwTCaMLADqJBda07I9oudG0Ggy01pOs7A9u7EHGx8pgVNc6GI3BbIK7Tdn2jYXkVpveWwzeO8I0AX8IUhx4BDjSMiG4wMozYYl8a89CcoQjd6B8HA2ZCQnaJEyeN4Rcc0hgBC+lcUSIhC3ohV+KppfZSRvrmELkmLTNj5UY4X49/m23c4OU/0jFKv1p/wBKCfbvktBRvi4qc4PBR8Z4aZB2+8CF4RLCmk3MgKSxwuIYMvUBAk0Q4O1979FvwLnAYSuaM63RYmZxszpZJLphNrL2Owry6FzCiKpxFUFFbJa8Z2O5O7Bxva+xLuANc9HZAjFdSSbb3yKASRBrRBcbxddMaX1bgDFzjBd+cWAroxFuc00HS6SC9NjHrOn8bdHXKpRaKResDuQyAowZNnFg1hPySlK/wNBKfJXKcxD/tr/zPnsORGzJJWNMRzMqlekfbA22C9ZNuuDuLDxAE7EYuC/5s9tB45FmGMW9oNiHZtbjKYKJ5ermm95ua/2I37a7Mc6GG1LmaA+NIRm11xpH+aJ56ZgJlk538h5fCiEW6S1+/Pk9V9ImcTBONw0Iipwi+SYDd+w098R9Ra0uh2WHiLF6F3iYZgfUyGXEczPpQVKKasE9iqdyU73pFEkPBM4ZBKLSfB+NkD2Sm3epCVOAlTrVKtuTKopRshrTyzxQN+lVOYwME94ootJ+B12Y0TsFKwxes9Ba8y3nYkNCv6j1wpkH36MKhks4+/sA8rzj0w4K5JxNVWOMu1+TEfNrylBVPVPFBA+ZGcdDTyqAYFdByIeLe8StaXGSdf/xKoYe7yPCDu2Pj6yTuzvccrVWbhvn74K03zn+0T3ydz3LjeA/BofJihbzpVCPQPiLznLE8aZotzdUxV+8hrBN1vSzAYJ36aaGrOyvqylgewazurbhgu1lwn4uTC3fVkLT+oq11PDz0tyb6zDgDtwhSuzG9tIWkyfTkSr4WWEkNXcVWLdd8lqcfeVyzPzPgvk7w/eshSQE5z//B5/+CQ//0Am1Cn4ofnDKQUg+asyY9FAZTSFxpQQUdmhw7yE/+d0sKMTnAU/YR+TV98P89bQ9WZo6uy1YZj3nhW5XGLAb7kgMZbBFO2nF1QzqcxntcsfTKvUUGqrlYGhmp1ayKIL4lpcz73hNIeJoNG98+MZRDmHLbT6Z9niKgM12u195ujincR2PtQr/jOIWiE/+7eQ75PGLO+/kIyQT8eqCfxLnYZyhEfzX5tRa499kaJeG41SExIy4ICUP1NtTJqic25RKluKhtEZVwHiCYHDC79wPOwtKeJFe6n3Lx2+7dcAvAA9vY2O8ODh5DXQjcktckX5uRste7uYRKFAkvYt6nB+cRIaIjV/z0RvcJ068eoRVusOrPotBSX0gL6KEVIvxQkV3vrRw27GjZ733sw3bf5ThMrvqGpPKHmpw1H6fvseo7pCpTeIjhWguF4ClLfv9GnGXsKcAwsQQNvSyZZGBKKujmAtwsAAM5i5kNRS/zGmc1lrKFas5KHBiGVSRLJdSYHZ9tRWEcKkfs3t8gcQuepsZOupqcLKwPBipdGXGgZWCRQJS1RSjYq4WV+nfgf8143xRPEttgT8gCciOXnw+zI3VNP8WeDO9aiO2Jd14Z7czBBpIbTXJepbgu+d9g9oIfzjBGpUEZjB0mp8/+CPK9FkLFRVeeW0vgBaNT7qr5BBX8ZFk9xGZ1XDgmcI1ATiQHB2u+Jdxz/WoQkIw79jowtT6Kbh0ogP+z7CHM5DEKoGTau6iPig8R59WDyXZ1pvE+/Bd96Stv2rdkScu4+BczRg2EHnS0u36tMqO4I4EKw/UOF1OUmWsNRXAPrhePwR+46TjnyvBTO6xSygF8ZvgYxFf87CMwNF86DwGBXk1pERJwP8sf/AAEmlWcYsRMC5SZPfhmIhawOdaRpv548mLf9UkXA9mff69v4AcJL524aYSYvPMmWu7CjfIN1UCx1MnccdVpiTLr98Ay5IHNyUwb9YWCGjdKwGxn0GriGSJYB65M24mu1hLHKokA/92wV6oXxGXt8AAAAA=",
+        "players": {
+            "brankáři": [
+                {
+                    "name": "",
+                    "post": "Nastupující brankář",
+                    "number": "",
+                    "image": "/poradatelak/xxx.png"                    
+                }
+            ],
+            "1. formace": [
+                {
+                    "name": "",
+                    "post": "útočník",
+                    "number": "",
+                    "image": "/poradatelak/xxx.png"
+                },
+                {
+                    "name": "",
+                    "post": "útočník",
+                    "number": "",
+                    "image": "/poradatelak/xxx.png"
+                },
+                {
+                    "name": "",
+                    "post": "útočník",
+                    "number": "",
+                    "image": "/poradatelak/xxx.png"
+                },
+                {
+                    "name": "",
+                    "post": "útočník",
+                    "number": "",
+                    "image": "/poradatelak/xxx.png",
+                    "captain": true
+                },
+                {
+                    "name": "",
+                    "post": "obránce",
+                    "number": "",
+                    "image": "/poradatelak/xxx.png"
+                }
+            ],
+            "2. formace": [
+                {
+                    "name": "",
+                    "post": "útočník",
+                    "number": "",
+                    "image": "/poradatelak/xxx.png"
+                },
+                {
+                    "name": "",
+                    "post": "útočník",
+                    "number": "",
+                    "image": "/poradatelak/xxx.png"
+                },
+                {
+                    "name": "",
+                    "post": "útočník",
+                    "number": "",
+                    "image": "/poradatelak/xxx.png"
+                },
+                {
+                    "name": "",
+                    "post": "útočník",
+                    "number": "",
+                    "image": "/poradatelak/xxx.png",
+                },
+                {
+                    "name": "",
+                    "post": "obránce",
+                    "number": "",
+                    "image": "/poradatelak/xxx.png"
+                }
+            ],
+            "náhradníci": [
+                {
+                    "name": "",
+                    "post": "útočník",
+                    "number": "",
+                    "image": "/poradatelak/xxx.png"
+                }
+            ],
+            "realizační": [
+                {
+                    "name": "",
+                    "post": "trenér",
+                    "number": "",
+                    "image": "/poradatelak/xxx.png"
+                },
+                {
+                    "name": "Vokál",
+                    "post": "vedoucí",
+                    "number": "",
+                    "image": "/poradatelak/xxx.png"
+                }
+            ]
+        }
+    }
+}
