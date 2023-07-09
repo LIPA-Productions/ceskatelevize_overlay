@@ -1,6 +1,6 @@
 <script lang="ts">
     import Score from "../Score.svelte";
-    import TimeInput from "../TimeInput.svelte";
+    import TimeInput from "../Dashboard/TimeInput.svelte";
     import SetPeriods from "../Dashboard/SetPeriods.svelte"
     import EndPeriods from "../Dashboard/EndPeriods.svelte";
 
@@ -18,13 +18,6 @@
 
     function toggleTime() {
         isTimeRunning = !isTimeRunning;
-
-        socket.send(
-            JSON.stringify({
-                target: "CT_SPORT_TIMER",
-                set: true,
-            })
-        );
 
         socket.send(
             JSON.stringify({

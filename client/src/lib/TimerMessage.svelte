@@ -5,11 +5,13 @@
     let socket: WebSocket;
     let content = "Oznámení";
     let fg = "#FFFFFF";
-    let bg = "#000000"
+    let bg = "#000000";
     let style = "";
     let home = true;
 
-    $ : style = `background: ${bg}; color: ${fg}; text-align: ${home ? "left" : "right"}`;
+    $: style = `background: ${bg}; color: ${fg}; text-align: ${
+        home ? "left" : "right"
+    }`;
 
     onMount(() => {
         socket = new WebSocket("ws://localhost:8810");
@@ -19,7 +21,6 @@
 
         socket.addEventListener("message", (event) => {
             const data = JSON.parse(event.data);
-            console.log(data)
             if (data.target != "CT_SPORT_TIMER_MESSAGE") return;
             if (data.toggle != undefined) active = !active;
             if (data.set != undefined) active = data.set;
@@ -33,7 +34,7 @@
 </script>
 
 <div
-    class="uppercase px-4 font-semibold relative flex justify-between text-xl"
+    class="uppercase px-4 font-semibold relative flex justify-between text-xl z-20"
     {style}
     class:opened={active}
     id="timer__messages"

@@ -11,18 +11,22 @@
         minor_penalty: {
             button: "2",
             message: "2 min",
+            minutes: 2
         },
         major_penalty: {
             button: "2+2",
             message: "2+2 min",
+            minutes: 4
         },
         personal_penalty: {
             button: "2+10",
             message: "2+10 min",
+            minutes: 2
         },
         match_penalty: {
             button: "TDKU",
             message: "Červená karta",
+            minutes: 4
         },
     };
 
@@ -88,17 +92,29 @@
             JSON.stringify({
                 target: "CT_SPORT_TIMER_MESSAGE",
                 set: true,
+                fg: team.fg,
+                bg: team.bg,
+                home: key == "home"
             })
         );
+
+        socket.send(
+            JSON.stringify({
+                target: "CT_SPORT_ADD_PENALTY",
+                set: true,
+                time: penalties[penalisation].minutes,
+                content: offender,
+                home: key == "home",
+                fg: team.fg,
+                bg: team.bg,
+            })
+        )
 
         for (const message of messages) {
             socket.send(
                 JSON.stringify({
                     target: "CT_SPORT_TIMER_MESSAGE",
                     content: message,
-                    fg: team.fg,
-                    bg: team.bg,
-                    home: key == "home",
                 })
             );
 
