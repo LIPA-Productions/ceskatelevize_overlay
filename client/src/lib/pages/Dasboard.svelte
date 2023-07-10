@@ -1,10 +1,13 @@
 <script lang="ts">
     import Score from "../Score.svelte";
     import TimeInput from "../Dashboard/TimeInput.svelte";
-    import SetPeriods from "../Dashboard/SetPeriods.svelte"
+    import SetPeriods from "../Dashboard/SetPeriods.svelte";
     import EndPeriods from "../Dashboard/EndPeriods.svelte";
 
+    import TwoStateControls from "../Controls/TwoStateControls.svelte";
     import WaitingRoom from "../Sequences/WaitingRoom.svelte";
+
+    import { data } from "../../stores/data";
 
     let fetchJson;
     fetch("data.json")
@@ -151,7 +154,7 @@
         <div class="flex flex-col xl:flex-row justify-between w-full gap-16">
             <div>
                 <h1>Skóre domácí</h1>
-                <Score home/>
+                <Score home />
             </div>
 
             <div class="flex flex-col gap-4">
@@ -168,33 +171,36 @@
                             ČAS Neběží
                         {/if}
 
-                        <kbd class="absolute right-2 px-4 py-1.5 text-xs font-semibold border rounded-lg bg-gray-600 text-gray-100 border-gray-500">Spacebar</kbd>
+                        <kbd
+                            class="absolute right-2 px-4 py-1.5 text-xs font-semibold border rounded-lg bg-gray-600 text-gray-100 border-gray-500"
+                            >Spacebar</kbd
+                        >
                     </button>
 
                     <TimeInput />
                 </div>
 
                 <div class="flex gap-4">
-                    <SetPeriods/>
-                    <EndPeriods/>
+                    <SetPeriods />
+                    <EndPeriods />
                 </div>
             </div>
 
             <div>
                 <h1>Skóre hosté</h1>
-            <Score/>
+                <Score />
             </div>
         </div>
     </div>
 
     <div class="flex flex-col items-start w-full">
-        <h2 class="text-2xl text-white font-mono">Sekvence</h2>
+        <h2 class="text-2xl text-white font-mono">Fronta</h2>
 
         <div class="w-full flex flex-col gap-4">
             <fieldset class="p-4 border border-neutral-600 text-white w-full">
                 <legend>Obecné</legend>
                 <div class="flex gap-4">
-                    <WaitingRoom/>
+                    <WaitingRoom />
                     <button
                         class="px-4 py-2 text-white bg-blue-700"
                         on:click={() =>
@@ -219,12 +225,6 @@
                     >
                         Soupisky Hosté
                     </button>
-                    <button
-                        class="px-4 py-2 text-white bg-blue-700"
-                        on:click={sequenceReferees}
-                    >
-                        Rozhodčí
-                    </button>
                 </div>
             </fieldset>
         </div>
@@ -232,92 +232,47 @@
 
     <div class="flex flex-col items-start w-full">
         <h2 class="text-2xl text-white font-mono">Danger Zone</h2>
-        <div class="w-full flex flex-col gap-4">
+        <div class="w-full grid grid-cols-1 2xl:grid-cols-3 gap-4">
             <fieldset class="p-4 border border-neutral-600 text-white w-full">
                 <legend>Obecné</legend>
-                <div class="flex gap-4">
-                    <button
-                        class="px-4 py-2 text-white bg-red-700"
-                        on:click={() =>
-                            socket.send(
-                                JSON.stringify({
-                                    target: "CT_SPORT_LOWER_THIRD",
-                                    toggle: true,
-                                })
-                            )}
-                    >
-                        Přepnout spodní třetinu
-                    </button>
-                    <button
-                        class="px-4 py-2 text-white bg-red-700"
-                        on:click={() =>
-                            socket.send(
-                                JSON.stringify({
-                                    target: "CT_SPORT_TIMER",
-                                    toggle: true,
-                                })
-                            )}
-                    >
-                        Přepnout timer
-                    </button>
-                    <button
-                        class="px-4 py-2 text-white bg-red-700"
-                        on:click={() =>
-                            socket.send(
-                                JSON.stringify({
-                                    target: "CT_SPORT_TIMER_MESSAGE",
-                                    toggle: true,
-                                })
-                            )}
-                    >
-                        Přepnout zprávu v timeru
-                    </button>
-                    <button
-                        class="px-4 py-2 text-white bg-red-700"
-                        on:click={() =>
-                            socket.send(
-                                JSON.stringify({
-                                    target: "CT_SPORT_BACKGROUND",
-                                    toggle: true,
-                                })
-                            )}
-                    >
-                        Přepnout pozadí
-                    </button>
+                <div class="flex flex-col gap-4">
+                    <TwoStateControls
+                        label="Časomíra"
+                        config={{
+                            target: "CT_SPORT_TIMER",
+                        }}
+                    />
+                    <TwoStateControls
+                        label="Banner se skóre"
+                        config={{
+                            target: "CT_SPORT_LOWER_THIRD",
+                        }}
+                    />
+
+                    <TwoStateControls
+                        label="Pozadí"
+                        config={{
+                            target: "CT_SPORT_BACKGROUND",
+                        }}
+                    />
                 </div>
             </fieldset>
 
             <fieldset class="p-4 border border-neutral-600 text-white w-full">
                 <legend>Rozhodčí</legend>
-                <div class="flex gap-4">
-                    <button
-                        class="px-4 py-2 text-white bg-red-700"
-                        on:click={() =>
-                            socket.send(
-                                JSON.stringify({
+
+                <div class="flex flex-col gap-4">
+                    {#if $data}
+                        {#each $data.referees as referee}
+                            <TwoStateControls
+                                label={referee.name}
+                                config={{
                                     target: "CT_SPORT_REFEREE",
-                                    name: "Kevin Daněk",
-                                    info: "Bez Licence, 3. utkání florbalu systému 5+1",
-                                    toggle: true
-                                })
-                            )}
-                    >
-                        Rozhodčí 1
-                    </button>
-                    <button
-                        class="px-4 py-2 text-white bg-red-700"
-                        on:click={() =>
-                            socket.send(
-                                JSON.stringify({
-                                    target: "CT_SPORT_REFEREE",
-                                    toggle: true,
-                                    name: "Vít Rachač",
-                                    info: "Licence E",
-                                })
-                            )}
-                    >
-                        Rozhodčí 2
-                    </button>
+                                    ...referee,
+                                }}
+                            />
+                        {/each}
+                    {/if}
                 </div>
             </fieldset>
 
