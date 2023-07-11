@@ -5,6 +5,7 @@
     import EndPeriods from "../Dashboard/EndPeriods.svelte";
 
     import TwoStateControls from "../Controls/TwoStateControls.svelte";
+    import SequenceControls from "../Controls/RosterControls.svelte";
     import WaitingRoom from "../Sequences/WaitingRoom.svelte";
 
     import { data } from "../../stores/data";
@@ -97,31 +98,6 @@
                 set: false,
             })
         );
-    }
-
-    async function sequenceReferees() {
-        const { referees } = fetchJson;
-
-        for (const ref of referees) {
-            socket.send(
-                JSON.stringify({
-                    target: "CT_SPORT_REFEREE",
-                    set: true,
-                    ...ref,
-                })
-            );
-
-            await sleep(5000);
-
-            socket.send(
-                JSON.stringify({
-                    target: "CT_SPORT_REFEREE",
-                    set: false,
-                })
-            );
-
-            await sleep(500);
-        }
     }
 
     function handleKeydown(event) {
@@ -278,7 +254,13 @@
 
             <fieldset class="p-4 border border-neutral-600 text-white w-full">
                 <legend>Soupisky</legend>
-                <div class="grid grid-cols-6 gap-4">
+
+                <div class="flex flex-col gap-4">
+                    <SequenceControls label="Domací" home/>
+                    <SequenceControls label="Hosté"/>
+                </div>
+                <!-- <div class="grid grid-cols-6 gap-4">
+
                     <button
                         class="px-4 py-2 text-white bg-red-700"
                         on:click={() => showRoster("brankáři", true)}
@@ -340,7 +322,7 @@
                         on:click={() => showRoster("realizační", false)}
                         >Realizační tým hosté</button
                     >
-                </div>
+                </div> -->
             </fieldset>
         </div>
     </div>
