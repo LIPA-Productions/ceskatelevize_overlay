@@ -8,10 +8,6 @@
 
     onMount(() => {
         socket = new WebSocket("ws://localhost:8810");
-        socket.addEventListener("open", () => {
-            console.log("Opened");
-        });
-
         socket.addEventListener("message", (event) => {
             const data = JSON.parse(event.data);
             if (data.target != "CT_SPORT_REFEREE") return;
@@ -27,8 +23,8 @@
 	});
 </script>
 
-<div id="referee_wrapper">
-    <section id="referee" class="flex flex-col" class:opened={active} style="min-width: 20vw;">
+<div class="overflow-hidden">
+    <section class={`flex flex-col transform duration-200 ${active ? "translate-y-0" : "translate-y-full"}`} style="min-width: 20vw;">
         <div
             class="uppercase px-2 py-1 text-base font-semibold flex text-white bg-teal-500"
         >

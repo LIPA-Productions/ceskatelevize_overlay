@@ -12,5 +12,5 @@
 
 <Router>
     <Route component={Index} />
-    <Route path="/dashboard" component={Dashboard}/>
+    <Route path="/casomira" component={Dashboard}/>
 </Router>

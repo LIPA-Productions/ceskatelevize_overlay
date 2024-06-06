@@ -1,8 +1,8 @@
 <script lang="ts">
     import { onMount } from "svelte";
     import leagueLogo from "/logo.png";
-    import HomeTeam from "./HomeTeam.svelte";
-    import AwayTeam from "./AwayTeam.svelte";
+    import HomeTeam from "../lib/HomeTeam.svelte";
+    import AwayTeam from "../lib/AwayTeam.svelte";
 
     import homeLogo from "/home.png";
     import awayLogo from "/away.png";

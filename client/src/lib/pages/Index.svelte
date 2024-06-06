@@ -1,8 +1,8 @@
 <script lang="ts">
     import { Router, Route } from "svelte-routing";
-    import LowerThird from "../LowerThird.svelte";
+    import LowerThird from "../../visuals/LowerThird.svelte";
     import Timer from "../Timer.svelte";
-    import Referee from "../Referee.svelte";
+    import Referee from "../../visuals/Referee.svelte";
     import Background from "../Background.svelte";
 
     import Roster from "../Roster.svelte";

@@ -1,0 +1,45 @@
+site_name: Česká Televize Overlay
+dev_addr: "0.0.0.0:8000"
+
+plugins:
+  - search
+
+watch:
+  - overrides
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.highlight
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - def_list
+  - tables
+  - footnotes
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.arithmatex:
+      generic: true
+
+theme:
+  name: material
+  language: cs
+  custom_dir: overrides
+  features:
+    - content.code.copy
+    - navigation.indexes
+    - navigation.sections
+    - announce.dismiss
+  palette:
+    scheme: slate
+    primary: black
+    accent: blue
+  icon:
+    edit: material/pencil 
+    view: material/eye
